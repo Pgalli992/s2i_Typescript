@@ -1,10 +1,14 @@
-# s2i_Typescript
+# **s2i_Typescript**
 
-## Descrizione
+![TypeScript](https://img.shields.io/badge/TypeScript-4.5-blue)
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+
+## 📜 Descrizione
 
 Questo progetto rappresenta un sistema di gestione per un brand di beachwear che utilizza plastica riciclata. Il sistema permette di gestire prodotti, clienti e processi di produzione sostenibile.
 
-## Struttura del Progetto
+## 📁 Struttura del Progetto
 
 La struttura del progetto è la seguente:
 
@@ -20,13 +24,13 @@ src/
     types.ts
 ```
 
-## File Principali
+## 📂 File Principali
 
 - `src/types.ts`: Contiene le definizioni dei tipi e delle interfacce utilizzate nel progetto.
 - `src/classes.ts`: Contiene le classi `Prodotto`, `Cliente` e `ProcessoProduzione` che implementano le interfacce definite in `types.ts`.
 - `src/main.ts`: Esegue la logica principale del progetto, istanziando oggetti e testando le funzionalità.
 
-## Installazione
+## 🛠 Installazione
 
 1. Clona il repository:
    ```sh
@@ -37,7 +41,7 @@ src/
    npm install
    ```
 
-## Compilazione
+## 🔧 Compilazione
 
 Per compilare il progetto, esegui:
 
@@ -45,14 +49,14 @@ Per compilare il progetto, esegui:
 npx tsc
 ```
 
-## Esecuzione
+## 🚀 Esecuzione
 
 Apri il file `index.html` in un browser per eseguire il progetto.
 
-## Autore
+## 👤 Autore
 
 Paolo Galli
 
-## Licenza
+## 📄 Licenza
 
 ISC
