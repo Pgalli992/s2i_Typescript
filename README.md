@@ -12,16 +12,17 @@ Questo progetto rappresenta un sistema di gestione per un brand di beachwear che
 
 La struttura del progetto è la seguente:
 
-```
-.gitignore
-index.html
-package.json
-README.md
-tsconfig.json
-src/
-    classes.ts
-    main.ts
-    types.ts
+```sh
+└── s2i_Typescript/
+    ├── README.md
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    ├── src
+    │   ├── classes.ts
+    │   ├── main.ts
+    │   └── types.ts
+    └── tsconfig.json
 ```
 
 ## 📂 File Principali
