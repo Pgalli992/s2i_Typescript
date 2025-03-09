@@ -1,6 +1,6 @@
 // Istanzia alcuni oggetti Prodotto per rappresentare i diversi articoli di beachwear prodotti con plastica riciclata.
 
-import { Cliente, ProcessoProduzione, Prodotto } from "./classes";
+import { Cliente, ProcessoProduzione, Prodotto } from "./classes.js";
 import {
   TipoProdotto,
   Genere,
@@ -8,7 +8,7 @@ import {
   Taglia,
   DisponibilitaProdotto,
   MetodoPagamento,
-} from "./types";
+} from "./types.js";
 
 const prodotto1 = new Prodotto(
   TipoProdotto.Cappello,

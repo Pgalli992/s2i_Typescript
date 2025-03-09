@@ -1,14 +1,13 @@
 import {
   TipoProdotto,
   Genere,
-  Modello,
   Taglia,
   DisponibilitaProdotto,
   MetodoPagamento,
   IProdotto,
   ICliente,
   IProcessoProduzione,
-} from "./types";
+} from "./types.js";
 
 export class Prodotto implements IProdotto {
   static counter = 1;
