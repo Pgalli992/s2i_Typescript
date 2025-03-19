@@ -6,7 +6,7 @@
 
 ## 📜 Descrizione
 
-Questo progetto rappresenta un sistema di gestione per un brand di beachwear che utilizza plastica riciclata. Il sistema permette di gestire prodotti, clienti e processi di produzione sostenibile.
+Questo progetto ha lo scopo di sviluppare un sistema in TypeScript che modella la struttura operativa di un brand di beachwear in plastica riciclata, focalizzandosi sulle interazioni tra clienti, prodotti beachwear e processi di produzione sostenibile.
 
 ## 📁 Struttura del Progetto
 
@@ -25,17 +25,11 @@ La struttura del progetto è la seguente:
     └── tsconfig.json
 ```
 
-## 📂 File Principali
-
-- `src/types.ts`: Contiene le definizioni dei tipi e delle interfacce utilizzate nel progetto.
-- `src/classes.ts`: Contiene le classi `Prodotto`, `Cliente` e `ProcessoProduzione` che implementano le interfacce definite in `types.ts`.
-- `src/main.ts`: Esegue la logica principale del progetto, istanziando oggetti e testando le funzionalità.
-
 ## 🛠 Installazione
 
 1. Clona il repository:
    ```sh
-   git clone <URL_DEL_REPOSITORY>
+   git clone https://github.com/Pgalli992/s2i_Typescript.git
    ```
 2. Installa le dipendenze:
    ```sh
@@ -57,7 +51,3 @@ Apri il file `index.html` in un browser per eseguire il progetto.
 ## 👤 Autore
 
 Paolo Galli
-
-## 📄 Licenza
-
-ISC
