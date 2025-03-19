@@ -7,6 +7,9 @@
 ## 📜 Descrizione
 
 Questo progetto ha lo scopo di sviluppare un sistema in TypeScript che modella la struttura operativa di un brand di beachwear in plastica riciclata, focalizzandosi sulle interazioni tra clienti, prodotti beachwear e processi di produzione sostenibile.
+Attraverso la definizione di interfacce e classi che rappresentano i vari componenti del sistema (IProdotto, ICliente, IProcessoProduzione), il progetto dimostra come la tecnologia possa supportare l'innovazione sostenibile nel settore della moda.
+
+*Il progetto richiede solo la scrittura del codice in TypeScript.
 
 ## 📁 Struttura del Progetto
 
