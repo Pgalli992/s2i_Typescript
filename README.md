@@ -49,7 +49,11 @@ npx tsc
 
 ## 🚀 Esecuzione
 
-Apri il file `index.html` in un browser per eseguire il progetto.
+Per vedere il risultato direttamente nel terminale, esegui:
+
+```sh
+node dist/main.js 
+```
 
 ## 👤 Autore
 
