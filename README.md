@@ -53,4 +53,4 @@ Apri il file `index.html` in un browser per eseguire il progetto.
 
 ## 👤 Autore
 
-Paolo Galli
+Paolo Galli - Per start2impact - PROGETTO TYPESCRIPT
