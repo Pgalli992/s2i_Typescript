@@ -1,5 +1,3 @@
-// Istanzia alcuni oggetti Prodotto per rappresentare i diversi articoli di beachwear prodotti con plastica riciclata.
-
 import { Cliente, ProcessoProduzione, Prodotto } from "./classes.js";
 import {
   TipoProdotto,
@@ -31,9 +29,6 @@ const prodotto3 = new Prodotto(
   "Mimetico",
   DisponibilitaProdotto.Disponibile
 );
-console.log(prodotto1, prodotto2, prodotto3);
-
-// Istanzia oggetti Cliente per rappresentare i clienti del brand.
 
 const cliente1 = new Cliente(
   "Luca",
@@ -47,16 +42,6 @@ const cliente2 = new Cliente(
   "eleonora.verdi@sunnee.it",
   MetodoPagamento.BuyNowPayLater
 );
-// const cliente3 = new Cliente(
-//   "Giovanni",
-//   "Bianchi",
-//   "f",
-//   MetodoPagamento.CreditCard
-// );
-console.log(cliente1, cliente2);
-// console.log(cliente3)
-
-// Crea un'istanza della classe ProcessoProduzione per uno o più processi di produzione sostenibile utilizzati dal brand, aggiungendo i prodotti istanziati al processo.
 
 const processoProd1 = new ProcessoProduzione(
   "Fusion",
@@ -72,19 +57,8 @@ const processoProd3 = new ProcessoProduzione(
 );
 console.log(processoProd1, processoProd2, processoProd3);
 
-// Testa la logica:
-// 1. Ordinazione dei prodotti da parte dei clienti.
-
-cliente1.ordinaProdotto(prodotto1); // "Complimenti Luca Rossi, il tuo ordine contenente cappello è stato preso in carico, riceverai la conferma dell'evasione all'indirizzo luca.rossi@s2i.com"
-console.log(prodotto1.stato); // "esaurito"
-
-cliente1.ordinaProdotto(prodotto2); // "Spiacenti Luca Rossi, l'articolo non è disponibile. Riceverai una notifica all'indirizzo luca.rossi@s2i.com quanto il prodotto sarà nuovamente ordinabile."
-
-cliente2.ordinaProdotto(prodotto3); // "Complimenti Eleonora Verdi, il tuo ordine contenente pareo è stato preso in carico, riceverai la conferma dell'evasione all'indirizzo eleonora.verdi@sunnee.it"
-console.log(prodotto3.stato); //// "esaurito"
-
-// 2. Aggiunta di nuovi articoli ai processi di produzione.
+cliente1.ordinaProdotto(prodotto1);
+cliente1.ordinaProdotto(prodotto2);
+cliente2.ordinaProdotto(prodotto3);
 
 processoProd1.aggiungiProdotto(prodotto1);
-
-console.log(prodotto1, prodotto2, prodotto3);
